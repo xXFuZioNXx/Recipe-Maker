@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Recipe-Maker</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+        <h1>
+ <%=@title%> 
+   </h1>
+    <h2>
+            The number of ingredients missing are <%=@number_of_search_ingredients%>. 
+         The numbers of ingredients use are <%=@number_of_missing_ingredients%>.
+      <%=@missing_ingredients%>
+    </h2>
+         
+    
+   
+    <img src="<%=@image%>">
+  </body>
+</html>
